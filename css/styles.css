@@ -1,0 +1,32 @@
+.container {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    margin: 50px auto;
+    background: #fff;
+}
+
+.square {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+}
+
+.red {
+    background-color: #F87075;
+    top: 50px;
+    left: 80px;
+}
+
+.blue {
+    background-color: #6A75E9;
+    top: 120px;
+    left: 150px;
+    z-index: 2;
+}
+
+.green {
+    background-color: #53EF83;
+    top: 200px;
+    left: 220px;
+}
